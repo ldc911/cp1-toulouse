@@ -44,19 +44,19 @@ npm run test:2 # cette commande lance les tests de l'algo 2 uniquement
 
 ```
 
-> [algo1.js](./algo/algo1.js)
+> [algo1.js](./algo/1/thirdAngle.js)
 >
-> [algo2.js](./algo/algo2.js)
+> [algo2.js](./algo/2/isLeapYear.js)
 >
-> [algo3.js](./algo/algo3.js)
+> [algo3.js](./algo/3/theaterSieges.js)
 
 BONUS (facultatif)
 
-> [algo4.js](./algo/algo4.js)
+> [algo4.js](./algo/4/findAdults.js)
 >
-> [algo5.js](./algo/algo5.js)
+> [algo5.js](./algo/5/getPoints.js)
 >
-> [algo6.js](./algo/algo6.js)
+> [algo6.js](./algo/6/sumArr.js)
 
 ## Partie 3: Portfolio
 

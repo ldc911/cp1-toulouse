@@ -4,7 +4,7 @@ Dans la salle les sièges sont répartis de la manière suivantes :
   - Il y a 26 colonnes de sièges, numérotés de "1" à "26"
   - Chaque colonne contient 100 sièges, numérotés de "1" à "100"
 
-Compléter la fonction theaterSiege de manière à ce qu'elle retourne une matrice 
+Compléter la fonction theaterSieges de manière à ce qu'elle retourne une matrice 
 où chaque sous-tableau liste les positions des sieges d'une rangée.
 
 exemple :

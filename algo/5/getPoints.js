@@ -7,7 +7,7 @@ Victoire : +3 points
 Match nul : +1 points
 Défaite : +0 point
 Ci-dessous, tu as un tableau avec tous les résultats de notre équipe,
-qui te permet de tester si ta fonction est bonne. Le résultat doit être 10
+qui te permet de tester si ta fonction est bonne. Le résultat doit être 13
 écris la fonction qui nous permet de récupérer le nombre
 de points de notre équipe à la fin du championnat
 */

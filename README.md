@@ -16,18 +16,7 @@ Your 1st checkpoint !
 - Fais un commit avec un message EXPLICITE sur ta branche.
 - Fais un push de ta branche.
 
-## Étape 1 - Quiz
-
-- Pour répondre au quiz rend toi sur [cette application](https://wild-quiz-client.herokuapp.com/).
-- Réponds aux questions du Quiz **Checkpoint 1 - JS**
-- Une fois le quiz terminé, copie le lien fourni par l'application
-- Crée un fichier Quiz.md à la racine du projet
-- Colles-y le lien que tu viens de récupérer
-- `commit` ton fichier
-
----
-
-## Partie 2: Algorithme JS.
+## Partie 1: Algorithme JS.
 
 Réalise l'ensemble des algos présents.
 Des tests unitaires sont présents, il te permettront de savoir si tes algos fonctionnent !
@@ -58,7 +47,7 @@ BONUS (facultatif)
 >
 > [algo6.js](./algo/6/sumArr.js)
 
-## Partie 3: Portfolio
+## Partie 2: Portfolio
 
 ### Attention, ce test est à réaliser sans Bootstrap, tu devras utiliser flexbox à la place !
 

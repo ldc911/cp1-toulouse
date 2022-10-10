@@ -5,18 +5,22 @@
   }
 }
 
-  .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+:root{
+  --mainColor : pink;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .pink-bg {
-  background-color: pink;
+  background-color: var(--mainColor);
 }
 
 .pink-text {
-  color: pink;
+  color: var(--mainColor);
 }
 
 .purple-text {
@@ -42,7 +46,8 @@
 
 @media screen and (min-width : 700px) {
   .desktop {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: 80px 0 -5px 0;
   }
 }
@@ -54,8 +59,9 @@
   border-radius: 12px;
   padding: 0 10%;
 }
-@media  screen and (min-width : 700px) {
-  .skills{
+
+@media screen and (min-width : 700px) {
+  .skills {
     flex-direction: row-reverse;
     justify-content: center;
   }
@@ -107,4 +113,23 @@ img {
 p {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media screen and (min-width : 700px) {
+  .contents {
+    display: flex;
+  }
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.buttonChange {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 1rem;
+  max-width: 9rem;
+  background-color: rgba(233, 240, 243, 0.1);
 }

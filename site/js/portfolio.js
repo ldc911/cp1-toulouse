@@ -7,6 +7,7 @@ avatar.addEventListener("click", function (event) {
 const userName = document.getElementById("name");
 const myButton = document.querySelector(".buttonChange");
 const myBackground = document.querySelector(":root");
+const link = document.querySelectorAll("a");
 
 myButton.addEventListener("click", function (event) {
     event.preventDefault();
@@ -17,8 +18,9 @@ myButton.addEventListener("click", function (event) {
 
 })
 
-function changeColor(colorvalue){
+function changeColor(colorvalue) {
     myBackground.style = `--mainColor : ${colorvalue}`;
+    link.forEach(item => item.style = "color : var(--mainColor);");
 }
 
 function addName(nameValue) {

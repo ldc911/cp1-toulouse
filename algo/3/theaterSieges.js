@@ -18,7 +18,17 @@ exemple :
 */
 
 function theaterSieges() {
-  // Your code here !
+  let i = 0
+  totalSiege = [];//tableau général
+  while (i < 26) {
+    const siege = [];//matrice d'une colonne uniquement
+    for (let j = 100; j > 0; j--) {
+      siege.unshift(`${i + 1}-${j}`);
+    }
+    totalSiege.push(siege);//remplissage du tableau général par les 26 matrices de 100 sièges
+    i++;
+  }
+  return totalSiege
 }
 
 console.log(theaterSieges());

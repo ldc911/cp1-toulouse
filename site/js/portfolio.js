@@ -8,6 +8,8 @@ const userName = document.getElementById("name");
 const myButton = document.querySelector(".buttonChange");
 const myBackground = document.querySelector(":root");
 const link = document.querySelectorAll("a");
+const listSkills = document.querySelectorAll("#front-dev-tools li");
+const ulSkills = document.querySelector("#front-dev-tools");
 
 myButton.addEventListener("click", function (event) {
     event.preventDefault();
@@ -27,3 +29,23 @@ function addName(nameValue) {
     userName.textContent = nameValue;
     userName.style = "color : white";
 }
+
+function addSkills(skillValue) {
+    const skills = document.createElement("li");
+    skills.textContent = `${skillValue}`;
+    ulSkills.appendChild(skills);
+}
+
+function skillsReset() {
+    listSkills.forEach(item => item.remove());
+}
+
+const modifyButton = document.querySelector(".modifyButton");
+modifyButton.addEventListener("click", function (event) {
+    event.preventDefault();
+    skillsReset();
+    addSkills("JavaScript");
+    addSkills("VSCode");
+    addSkills("Terminal");
+
+})

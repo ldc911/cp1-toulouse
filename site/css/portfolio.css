@@ -5,8 +5,8 @@
   }
 }
 
-:root{
-  --mainColor : pink;
+:root {
+  --mainColor: pink;
 }
 
 .banner {
@@ -132,4 +132,13 @@ p {
   padding: 1rem;
   max-width: 9rem;
   background-color: rgba(233, 240, 243, 0.1);
+}
+
+.modifyButton {
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+  background-color: var(--mainColor);
 }
